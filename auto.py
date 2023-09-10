@@ -46,7 +46,7 @@ def auto(duration, wait_time, load_game):
     sequence('commence', duration, 1, 0.8)
     
     # do this for 4 days
-    for i in range(1):
+    for i in range(4):
         # there is a screen change
         time.sleep(wait_time)
         
