@@ -21,13 +21,14 @@ Rồi chạy main.py thôi:
 
 ## Giao diện
 
-![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/ffc62f54-881c-4226-b99b-e10cbcd8d2f1)
+![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/e88e00ea-3b09-4865-8784-fd5d4be306e7)
+
 
 **Thời gian click chuột:** thời gian giữa những lần click, để 1s là ok nhất.
 
 **Thời gian đợi chuyển screen:** kiểu mấy animation lúc đổi qua các màn, mình để 7s thì code chạy ổn. Anh em máy yếu thì có thể để cao hơn.
 
-**Thời gian đợi load game:** sau khi bắt đầu/kết thúc 1 màn thì nó sẽ load game hơi lâu, mình để 12s nhưng anh em có thể để cao hơn.
+**Thời gian đợi load game:** sau khi bắt đầu/kết thúc 1 màn thì nó sẽ load game hơi lâu, mình để 16s nhưng anh em có thể để cao hơn.
 
 Thời gian mình để mặc định là khá ổn rồi, anh em ***không nên để thấp hơn*** mà chỉ nên để cao hơn nếu auto fail khi chạy trên máy anh em.
 
