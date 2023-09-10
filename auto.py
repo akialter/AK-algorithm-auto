@@ -18,7 +18,8 @@ def sequence(name, duration, click, thres):
 
     retries = 0  
     while retries < max_retries:
-        region = pyautogui.locateOnScreen(os.path.join(os.path.dirname(__file__), 'images', f'{name}.png'), confidence=confidence_threshold)
+        region = pyautogui.locateOnScreen(f'resources/{name}.png', confidence=confidence_threshold)
+        # region = pyautogui.locateOnScreen(os.path.join(os.path.dirname(__file__), 'images', f'{name}.png'), confidence=confidence_threshold)
         
         if region:
             x, y = pyautogui.center(region)
@@ -45,13 +46,14 @@ def auto(duration, wait_time, load_game):
     sequence('commence', duration, 1, 0.8)
     
     # do this for 4 days
-    for i in range(4):
+    for i in range(1):
         # there is a screen change
         time.sleep(wait_time)
         
         sequence('skip', duration, 2, 0.6)
         sequence('continue', duration, 1, 0.8)
-        sequence('base', duration, 1, 0.8)
+        pyautogui.press('a')
+        time.sleep(duration)
         
         if not sequence('mine', duration, 1, 0.4):
             # try hunting if we couldn't not find any mine spot
@@ -97,7 +99,7 @@ def auto(duration, wait_time, load_game):
         pyautogui.press('y') # press a key to continue
         time.sleep(wait_time)
         
-        sequence('advance', duration, 2, 0.8)     
+        sequence('advance', duration, 2, 0.6)     
     
     # exit sequence
     sequence('skip', duration, 2, 0.6)

@@ -5,7 +5,7 @@ from auto import auto  # Import your 'auto' function here
 # Set default variable values here
 duration = 1
 wait_time = 7
-load_game = 12
+load_game = 16
 repeat = 20
 
 # Create a tkinter window
@@ -52,15 +52,6 @@ tk.Label(window, text='Lap lai bao nhieu lan').grid(row=3, column=0, padx=10, pa
 load_game_entry = tk.Entry(window, validate="key", validatecommand=(validate_input, "%P"), textvariable=repeat_var)
 load_game_entry.grid(row=3, column=1, padx=10, pady=5)
 
-# Create a threading.Event to signal the thread to stop
-stop_event = threading.Event()
-
-def on_closing():
-    # Set the stop_event to signal the thread to stop
-    stop_event.set()
-    # Close the GUI window
-    window.destroy()
-
 def run():
     # Update variables
     duration = duration_var.get()
@@ -82,10 +73,9 @@ def run():
     
     # Create and start a separate thread to run 'auto'
     auto_thread = threading.Thread(target=run_auto)
+    auto_thread.setDaemon(True)
     auto_thread.start()
     
-    # Bind a function to run when the GUI window is closed
-    window.protocol("WM_DELETE_WINDOW", on_closing)
 
 # Create a button to update the variables
 tk.Button(window, text="Run", command=run).grid(row=4, columnspan=2, pady=10)
