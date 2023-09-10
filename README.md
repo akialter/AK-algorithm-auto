@@ -20,7 +20,8 @@ Rồi chạy main.py thôi:
 ```python main.py```
 
 ## Giao diện
-![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/455d3bec-e22f-4a63-be95-e90eaeb5b8ba)
+
+![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/ffc62f54-881c-4226-b99b-e10cbcd8d2f1)
 
 **Thời gian click chuột:** thời gian giữa những lần click, để 1s là ok nhất.
 
@@ -35,11 +36,7 @@ Thời gian mình để mặc định là khá ổn rồi, anh em ***không nên
 ## Setup phím trên giả lập
 Auto này chỉ hoạt động trên LDPlayer vs Bluestack (mình đã test), mấy cái khác mình không chắc. Phím layout như sau:
 
-![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/e5ca68a2-636c-4411-b17c-ab826e03696c)
-_LDPlayer_
-
-![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/68027ea5-5173-452e-b85a-49a5ab4f9d07)
-_Bluestack_
+![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/5cb7dc1d-e73a-40a6-a679-2dc3d4078053)
 
 Mình sẽ úp clip hướng dẫn, nhưng cách import key layout như sau:
 
