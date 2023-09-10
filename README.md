@@ -1,8 +1,7 @@
 # HƯỚNG DẪN CÁCH CHẠY AUTO ARKNIGHTS CHẾ ĐỘ RECLAMATION ALGORITHM
 
 ## Chạy file exe luôn
-Mình có úp link file exe ở đây: [link](https://drive.google.com/file/d/1oO76KwlxTtKdUEyVETvJPCggK3EAMOQU/view?usp=sharing)
-
+Mình có úp link file exe ở đây: [link](https://drive.google.com/drive/folders/1bkYlfIhkb0Bj5QTXKXtDRTPUsXQD5L8W?usp=drive_link)
 
 Anh em chỉ việc tải về và chạy (lưu ý phải hoàn thành các bước dưới trước).
 
@@ -42,6 +41,5 @@ Auto này chỉ hoạt động trên LDPlayer vs Bluestack (mình đã test), m�
 
 Mình sẽ úp clip hướng dẫn, nhưng cách import key layout như sau:
 
-- LDPlayer: Anh em chỉ việc nhập code ```leidian0eca0285c5c5``` là xong.
+- LDPlayer: Anh em chỉ việc nhập code ```leidian3944f422a25a``` là xong.
 - Bluestack: mình có để file ```AKautoBluestack.cfg``` trong repo, anh em tải về rồi import vô Bluestack.
-
