@@ -37,7 +37,8 @@ Thời gian mình để mặc định là khá ổn rồi, anh em ***không nên
 ## Setup phím trên giả lập
 Auto này chỉ hoạt động trên LDPlayer vs Bluestack (mình đã test), mấy cái khác mình không chắc. Phím layout như sau:
 
-![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/5cb7dc1d-e73a-40a6-a679-2dc3d4078053)
+![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/9ae22c9c-d550-4af8-b939-6886bea9341e)
+
 
 Mình sẽ úp clip hướng dẫn, nhưng cách import key layout như sau:
 
