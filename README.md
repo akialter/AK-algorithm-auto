@@ -45,11 +45,11 @@ Mình sẽ úp clip hướng dẫn, nhưng cách import key layout như sau:
 
 
 ## Hướng dẫn
-Bước 1: chơi qua màn tutorial. Bấm thủ công ít nhất 1 lần để hiểu thao tác với lại load trước map (lần sau auto map load nhanh hơn). Link hướng dẫn của Arckhive nếu anh em chưa biết làm: [link](https://www.youtube.com/watch?v=V1HaBXQkh24)
+Bước 1: Chơi qua màn tutorial. Bấm thủ công ít nhất 1 lần để hiểu thao tác với lại load trước map (lần sau auto map load nhanh hơn). Link hướng dẫn của Arckhive nếu anh em chưa biết làm: [link](https://www.youtube.com/watch?v=V1HaBXQkh24)
 
 Bước 2: Import keymap layout (ở trên) vô giả lập của anh em (LDPlayer hoặc Bluestack). Anh em có thể lên mạng coi hướng dẫn.
 
-Bước 3: Mở app lên (giao diện như trên). Lần đầu cứ để thông số như mặc định.
+Bước 3: Mở app lên (giao diện như trên). Lần đầu cứ để thông số như mặc định. Lưu ý để game full màn hình.
 
 Bước 4: Bấm Run để chạy, ráng ngồi theo dõi nó chạy xem có bị lỗi gì không. Kiên nhẫn 1 chút. Nếu sau 1 thời gian cảm giác auto bị kẹt thì có thể nó bị hỏng. Tăng thời gian load game lên (theo mình thì đây thường là nguyên nhân chính).
 - Nếu bị hỏng thì tắt app. Out màn ra rồi chạy lại từ đầu.
