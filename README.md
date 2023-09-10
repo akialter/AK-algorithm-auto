@@ -38,8 +38,22 @@ Auto này chỉ hoạt động trên LDPlayer vs Bluestack (mình đã test), m�
 
 ![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/9ae22c9c-d550-4af8-b939-6886bea9341e)
 
-
 Mình sẽ úp clip hướng dẫn, nhưng cách import key layout như sau:
 
 - LDPlayer: Anh em chỉ việc nhập code ```leidian3944f422a25a``` là xong.
 - Bluestack: mình có để file ```AKautoBluestack.cfg``` trong repo, anh em tải về rồi import vô Bluestack.
+
+
+## Hướng dẫn
+Bước 1: chơi qua màn tutorial. Bấm thủ công ít nhất 1 lần để hiểu thao tác với lại load trước map (lần sau auto map load nhanh hơn). Link hướng dẫn của Arckhive nếu anh em chưa biết làm: [link](https://www.youtube.com/watch?v=V1HaBXQkh24)
+
+Bước 2: Import keymap layout (ở trên) vô giả lập của anh em (LDPlayer hoặc Bluestack). Anh em có thể lên mạng coi hướng dẫn.
+
+Bước 3: Mở app lên (giao diện như trên). Lần đầu cứ để thông số như mặc định.
+
+Bước 4: Bấm Run để chạy, ráng ngồi theo dõi nó chạy xem có bị lỗi gì không. Kiên nhẫn 1 chút. Nếu sau 1 thời gian cảm giác auto bị kẹt thì có thể nó bị hỏng. Tăng thời gian load game lên (theo mình thì đây thường là nguyên nhân chính).
+- Nếu bị hỏng thì tắt app. Out màn ra rồi chạy lại từ đầu.
+
+Bước 5: Cứ để nó chạy thôi :). Rồi đi ngủ. Lưu ý giờ server reset đừng để auto chạy.
+
+
