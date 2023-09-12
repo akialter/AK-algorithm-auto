@@ -49,7 +49,9 @@ Bước 1: Chơi qua màn tutorial. Bấm thủ công ít nhất 1 lần để h
 
 Bước 2: Import keymap layout (ở trên) vô giả lập của anh em (LDPlayer hoặc Bluestack). Anh em có thể lên mạng coi hướng dẫn.
 
-Bước 3: Mở app lên (giao diện như trên). Lần đầu cứ để thông số như mặc định. Lưu ý để game full màn hình.
+Bước 3: Mở app lên, vào màn hình như sau. Lần đầu cứ để thông số như mặc định. Lưu ý để game full màn hình:
+
+![image](https://github.com/akialter/AK-algorithm-auto/assets/117612624/66104bdf-2d9b-4a5a-aa68-427eff2ee16d)
 
 Bước 4: Bấm Run để chạy, ráng ngồi theo dõi nó chạy xem có bị lỗi gì không. Kiên nhẫn 1 chút. Nếu sau 1 thời gian cảm giác auto bị kẹt thì có thể nó bị hỏng. Tăng thời gian load game lên (theo mình thì đây thường là nguyên nhân chính).
 - Nếu bị hỏng thì tắt app. Out màn ra rồi chạy lại từ đầu.
