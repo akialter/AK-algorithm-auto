@@ -1,5 +1,7 @@
 # HƯỚNG DẪN CÁCH CHẠY AUTO ARKNIGHTS CHẾ ĐỘ RECLAMATION ALGORITHM
 
+Lưu ý!! Có vẻ như không hoạt động ở Window 11. Tôi đang tìm cách fix... 
+
 Video hướng dẫn nhanh: [link](https://www.youtube.com/watch?v=Vp98zE-LzTY)
 
 ## Chạy file exe luôn
